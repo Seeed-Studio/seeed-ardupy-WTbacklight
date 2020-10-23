@@ -1,0 +1,35 @@
+language: generic
+dist: bionic
+global:
+  - CLIVERSION=0.7.2
+matrix:
+  include:
+  - env:
+      - BOARD="xiao"
+  - env:
+      - BOARD="wio_terminal"
+
+before_install:
+  - sudo apt-get install --reinstall python3-pip
+  - sudo apt-get install python3-setuptools
+  - python3 -m pip install
+  
+install:
+  - pip3 install ardupy-aip
+  - aip
+
+script: 
+  - echo "CI Test"
+  - aip build --board=wio_terminal
+  - aip install https://github.com/Seeed-Studio/seeed-ardupy-WTbacklight/archive/main.zip
+  - cd  /home/travis/.config/aip/modules/
+  - ls
+  - aip build --board=wio_terminal
+  
+notifications:
+
+  webhooks:
+    urls:
+      - https://www.travisbuddy.com/
+    on_success: never
+    on_failure: always
