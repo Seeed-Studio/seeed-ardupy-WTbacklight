@@ -25,7 +25,7 @@
  */
  
 #include "Arduino.h" 
-#include "Wio_Terminal_Backlight/lcd_backlight.hpp" //include dependent Arduino library
+#include "Seeed_Arduino_WTbacklight/lcd_backlight.hpp" //include dependent Arduino library
 
 extern "C" //tell compiler to use the C naming and calling conventions 
 {
