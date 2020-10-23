@@ -1,4 +1,4 @@
-# Wio Terminal Ardupy Backlight [![Build Status](https://api.travis-ci.com/Seeed-Studio/seeed-ardupy-WTbacklight.svg?branch=main)](https://travis-ci.com/github/Seeed-Studio/seeed-ardupy-WTbacklight)
+# Wio Terminal Ardupy Backlight [![Build Status](https://api.travis-ci.com/Seeed-Studio/wio-terminal-ardupy-backlight.svg?branch=main)](https://travis-ci.com/github/Seeed-Studio/wio-terminal-ardupy-backlight)
 
 ## Introduction
 
