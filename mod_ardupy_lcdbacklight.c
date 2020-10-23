@@ -101,8 +101,8 @@ const mp_rom_map_elem_t lcdbacklight_locals_dict_table[] = {
     {MP_ROM_QSTR(MP_QSTR_deinit), MP_ROM_PTR(&lcdbacklight_deinit_obj)},
     {MP_ROM_QSTR(MP_QSTR___enter__), MP_ROM_PTR(&default___enter___obj)},
     {MP_ROM_QSTR(MP_QSTR___exit__), MP_ROM_PTR(&lcdbacklight_obj___exit___obj)},
-    {MP_ROM_QSTR(MP_QSTR_set_brightness), MP_ROM_PTR(&lcdbacklight_set_brightness_obj)}, //add the function with parameters
-    {MP_ROM_QSTR(MP_QSTR_set_maxbrightness), MP_ROM_PTR(&lcdbacklight_set_maxbrightness_obj)}, //add the function with parameters
+    {MP_ROM_QSTR(MP_QSTR_setBrightness), MP_ROM_PTR(&lcdbacklight_set_brightness_obj)}, //add the function with parameters
+    {MP_ROM_QSTR(MP_QSTR_setMaxBrightness), MP_ROM_PTR(&lcdbacklight_set_maxbrightness_obj)}, //add the function with parameters
 };
 MP_DEFINE_CONST_DICT(lcdbacklight_locals_dict, lcdbacklight_locals_dict_table);
 
