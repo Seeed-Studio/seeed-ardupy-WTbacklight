@@ -7,7 +7,7 @@ This is the ArduPy library for controlling the brightness of the LCD on the Wio 
 
 ## How to bind with ArduPy
 - Install [AIP](https://github.com/Seeed-Studio/ardupy-aip)
-- Build firmware with Seeed ArduPy DHT
+- Build firmware with Seeed ArduPy WTbacklight
 ```shell
 aip install Seeed-Studio/seeed-ardupy-WTbacklight/archive/main.zip
 aip build
